@@ -9,12 +9,12 @@ You have been employed as a Data Scientist by a consultancy firm. The firm has a
 
 The tasks assigned to you are as follows.
 
-    There might be a few duplicate entries and a few missing values in the dataset. Data cleaning will be a part of the assignment.
-    You have to perform exploratory data analysis to draw keen insights on the data and determine the effect of different features on the price. Some specific requests by the client include:
-        Identify number of sales for each fuel type
-        Identify which transmission type has more price outliers
-    Compare the models with linear, polynomial and ridge regressions on single and multiple variables to find the best performing model
-    Perform a Grid Search on the Ridge regression model to identify the optimum hyperparameter for the model for best performance.
+    1. There might be a few duplicate entries and a few missing values in the dataset. Data cleaning will be a part of the assignment.
+    2 .You have to perform exploratory data analysis to draw keen insights on the data and determine the effect of different features on the price. Some specific requests by the client include:
+        a. Identify number of sales for each fuel type
+        b.Identify which transmission type has more price outliers
+    3. Compare the models with linear, polynomial and ridge regressions on single and multiple variables to find the best performing model
+    4. Perform a Grid Search on the Ridge regression model to identify the optimum hyperparameter for the model for best performance.
 
 
 ### About the data set
@@ -34,3 +34,4 @@ engineSize 	Engine Size of the car
 price 	Price of car in USD
 
 The data is available at the following URL
+URL = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0271EN-SkillsNetwork/labs/v1/m3/data/used_car_price_analysis.csv"
